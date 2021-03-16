@@ -12,7 +12,8 @@ public class Number2WordsApp {
 		Number2Words mNumber2Words = new Number2Words(Number2WordsUtility.GetNumber());
 		String mNumberInWords = mNumber2Words.ConvertNumber2Words();
 
-		System.out.println(mNumberInWords);
+		String firstLetterCapital = mNumberInWords.substring(0, 1).toUpperCase() + mNumberInWords.substring(1);
+		System.out.println(firstLetterCapital);
 	}
 
 
