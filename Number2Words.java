@@ -42,9 +42,6 @@ public class Number2Words {
 			case 12:
 				num2words = Ten2TwelveDigitsNumber(numInput);
 				break;
-			/*case 13:
-				num2words = Number2WordsUtility.mNumberDict(numInput);
-				break;*/
 			default:
 				num2words = Number2WordsUtility.mNumberDict(numInput);
 				break;
